@@ -6,14 +6,14 @@ public class TestScript : MonoBehaviour
     private void Start()
     {
         // Variable declaration
-        /*{
+        {
             int a = 3;
             int b = 4;
 
             int sum = a + b; // Calculating
 
             Debug.Log(sum); // 7
-        }*/
+        }
 
         // Variable assignment
         /*{
