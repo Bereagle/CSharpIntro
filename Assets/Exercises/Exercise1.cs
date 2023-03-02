@@ -14,9 +14,11 @@ public static class Exercise1
      */
     public static void Add(int a, int b)
     {
-        
-        // TODO Debug.Log() the sum of both values.
-        
+
+        int sum;
+        sum = a + b;
+        Debug.Log(sum);
+
     }
 
     /*
@@ -28,9 +30,10 @@ public static class Exercise1
      */
     public static void InDogYears(int realYears)
     {
-        
-        // TODO Debug.Log() the dog years.
-        
+        int inDogYears;
+        inDogYears = realYears * 7;
+        Debug.Log(inDogYears);
+
     }
     
     /*
@@ -51,9 +54,12 @@ public static class Exercise1
      */
     public static void ApplyDiscount(float price, float discount)
     {
-        
-        // TODO Debug.Log() the new price with the discount applied.
-        
+
+        float finalPrice;
+        discount = 1 - discount;
+        finalPrice = price * discount;
+        Debug.Log(finalPrice);
+
     }
 
     /*
@@ -70,8 +76,10 @@ public static class Exercise1
      */
     public static void ShareCake(float grams, int friends)
     {
-        
-        // TODO Debug.Log() the amount of cake everyone gets.
+
+        int everyone = friends + 1;
+        float everyoneGets = grams / everyone;
+        Debug.Log(everyoneGets);
         
     }
 
@@ -89,8 +97,11 @@ public static class Exercise1
      */
     public static void ApplyCoupon(float price, float couponValue)
     {
-        
-        // TODO Debug.Log() the new price with the coupon applied.
+
+        float calcPrice = price - couponValue;
+        float adjPrice;
+        adjPrice= Mathf.Max(calcPrice, 0);
+        Debug.Log(adjPrice);
         
     }
 
@@ -112,7 +123,8 @@ public static class Exercise1
     public static void ChangeHealth(int currentHealth, int changeInHealth)
     {
         
-        // TODO Debug.Log() the new health.
+        
+        Debug.Log();
         
     }
 
