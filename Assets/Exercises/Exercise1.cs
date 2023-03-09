@@ -122,10 +122,10 @@ public static class Exercise1
      */
     public static void ChangeHealth(int currentHealth, int changeInHealth)
     {
-        
-        
-        Debug.Log();
-        
+        currentHealth = currentHealth + changeInHealth;
+        currentHealth = Mathf.Clamp(currentHealth, 0, 100);
+        Debug.Log(currentHealth);
+
     }
 
     /*
